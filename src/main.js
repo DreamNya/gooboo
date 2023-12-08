@@ -12,6 +12,9 @@ import "@fontsource/caveat/400.css";
 import "@fontsource/roboto-mono/400.css";
 import GoobooTooltip from './components/partial/render/GoobooTooltip.vue';
 import { APP_TESTING } from './js/constants';
+import jQuery from 'jquery';
+
+window.$ = window.jQuery = jQuery;
 
 Vue.config.productionTip = false
 
