@@ -3,6 +3,7 @@ import Vuetify from 'vuetify/lib';
 
 import '@mdi/font/css/materialdesignicons.css'
 
+import zh from '../lang/zh';
 import en from '../lang/en';
 import de from '../lang/de';
 import { checkLocal, decodeFile } from '../js/savefile';
@@ -31,7 +32,7 @@ export default new Vuetify({
         }
     },
     lang: {
-        locales: { en, de },
-        current: "en"
+        locales: { zh, en, de },
+        current: "zh"
     }
 });
