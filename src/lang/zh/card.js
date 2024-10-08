@@ -1,6 +1,9 @@
 export default {
   cardPack: '卡包',
   cardsSuffix: ' 卡片',
+  cardPower: '卡片力量',
+  cardPowerValue: '{0} 卡片力量',
+  cardPowerDescription: '所有激活的卡片的力量都将增加，并增加该功能的基本属性',
   notFound: '未找到卡片',
   fullCollectionReward: '集齐奖励',
   canFind: '这张卡可以在以下卡包中找到',

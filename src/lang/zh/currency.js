@@ -335,6 +335,14 @@ export default {
     name: '铱矿石',
     description: 'Irid……什么？ 您以前从未听说过这个，它还能用来做什么吗？'
   },
+  mining_oreOsmium: {
+    name: '锇矿石',
+    description: ''
+  },
+  mining_oreLead: {
+    name: '铅矿石',
+    description: ''
+  },
   mining_granite: {
     name: '花岗岩',
     description: '从地下开采出来的巨大花岗岩块。 令人惊讶的是，里面没有任何废料'
@@ -358,6 +366,14 @@ export default {
   mining_obsidian: {
     name: '黑曜石',
     description: '美丽的紫色碎片，它们看起来很脆弱'
+  },
+  mining_deeprock: {
+    name: '深岩',
+    description: ''
+  },
+  mining_glowshard: {
+    name: '辉光碎片',
+    description: ''
   },
   mining_barAluminium: {
     name: '铝锭',
@@ -383,12 +399,16 @@ export default {
     name: '铱锭',
     description: '这家伙到底有什么奇怪的属性……'
   },
+  mining_barDarkIron: {
+    name: '黑铁锭',
+    description: ''
+  },
   mining_ember: {
     name: '余烬',
     description: '小心，天气还很热！'
   },
   mining_resin: {
-    name: 'Resin',
+    name: '树脂',
     description: '用于使镐使用寿命更长的粘性树脂'
   },
   mining_crystalGreen: {
@@ -430,6 +450,10 @@ export default {
   village_coin: {
     name: '金币',
     description: '通过向村民出售食物赚取金币'
+  },
+  village_copperCoin: {
+    name: '铜币',
+    description: '通过向村民出售手工制作的物品赚取的金币'
   },
   village_wood: {
     name: '木头',
@@ -495,6 +519,10 @@ export default {
     name: '祝福',
     description: '村民们的希望终于成真了！ 未来一切都会更好！ 随着时间的推移，它会变得更容易！'
   },
+  village_shares: {
+    name: '股票',
+    description: '投资是为了赚更多的钱!'
+  },
   village_offering: {
     name: '供品',
     description: '需要牺牲资源的神秘产品'
@@ -539,6 +567,22 @@ export default {
     name: '神话战利品',
     description: '你以为这些已经永远消失了'
   },
+  village_acidVial: {
+    name: '酸瓶',
+    description: '小心!'
+  },
+  village_snowflake: {
+    name: '雪花',
+    description: ''
+  },
+  village_chiliBundle: {
+    name: '辣椒包',
+    description: ''
+  },
+  village_gears: {
+    name: '齿轮',
+    description: ''
+  },
   horde_bone: {
     name: '骨头',
     description: '你杀死的敌人的骸骨'
@@ -563,6 +607,10 @@ export default {
     name: '强大的灵魂',
     description: '以前腐化的灵魂通过复杂的仪式得到净化和强化'
   },
+  horde_courage: {
+    name: '勇敢',
+    description: '面对无尽的敌人，勇敢是一种非常需要的美德'
+  },
   horde_crown: {
     name: '王冠',
     description: '他们曾经统治着塔楼，但现在已被废黜'
@@ -571,13 +619,21 @@ export default {
     name: '塔楼钥匙',
     description: '一把可以让你进入塔楼的稀有钥匙'
   },
+  horde_blood: {
+    name: '血液',
+    description: '呕!'
+  },
+  horde_lockpick: {
+    name: '撬锁器',
+    description: '允许你从已经被击败的boss那里获得饰品。海盗专属'
+  },
   farm_vegetable: {
     name: '蔬菜',
     description: '多吃蔬菜!'
   },
-  farm_fruit: {
-    name: '水果',
-    description: '这个农场肥沃的土壤赋予了水果浓郁的味道'
+  farm_berry: {
+    name: '浆果',
+    description: '这个农场肥沃的土壤赋予了浆果浓郁的味道'
   },
   farm_grain: {
     name: '粮食',
@@ -630,6 +686,10 @@ export default {
   farm_goldenPetal: {
     name: '金色花瓣',
     description: '这种极其罕见的花瓣只能在玫瑰上找到。 有传言说带有这些花瓣的玫瑰看起来比其他玫瑰颜色更深'
+  },
+  farm_smallSeed: {
+    name: '小种子',
+    description: ''
   },
   gallery_beauty: {
     name: '美丽',
@@ -743,6 +803,54 @@ export default {
     name: '粉红鼓',
     description: ''
   },
+  gallery_motivation: {
+    name: '动机',
+    description: ''
+  },
+  gallery_mysteryShape: {
+    name: '神秘形状',
+    description: '这是什么形状?它看起来很奇怪，好像它不属于这个维度'
+  },
+  gallery_circle: {
+    name: '圆形',
+    description: ''
+  },
+  gallery_rectangle: {
+    name: '矩形',
+    description: ''
+  },
+  gallery_triangle: {
+    name: '三角形',
+    description: '小心，那些东西很危险'
+  },
+  gallery_star: {
+    name: '星形',
+    description: ''
+  },
+  gallery_ellipse: {
+    name: '椭圆形',
+    description: ''
+  },
+  gallery_heart: {
+    name: '心形',
+    description: '<3'
+  },
+  gallery_square: {
+    name: '正方形',
+    description: ''
+  },
+  gallery_octagon: {
+    name: '八边形',
+    description: ''
+  },
+  gallery_pentagon: {
+    name: '五边形',
+    description: '它是一个形状，不是一个建筑'
+  },
+  gallery_hexagon: {
+    name: '六边形',
+    description: ''
+  },
   gallery_cash: {
     name: '现金',
     description: '轻松赚钱!'
@@ -759,8 +867,12 @@ export default {
     name: '考试通过',
     description: '奇怪的是，我们原来的学校不需要它们。 这里需要他们参加考试'
   },
+  card_shinyDust: {
+    name: '闪亮的灰尘',
+    description: ''
+  },
   treasure_fragment: {
-    name: '片段',
+    name: '碎片',
     description: '破碎的宝藏碎片'
   }
 };

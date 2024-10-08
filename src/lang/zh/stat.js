@@ -69,6 +69,15 @@ export default {
   mining_timeSpent: {
     description: '花费的时间'
   },
+  mining_bestPrestige0: {
+    description: '最佳声望 (矿山)'
+  },
+  mining_bestPrestige1: {
+    description: '最佳声望 (气体巨人)'
+  },
+  mining_prestigeCount: {
+    description: '声望'
+  },
 
   // Village stats
   village_maxBuilding: {
@@ -126,11 +135,23 @@ export default {
   village_timeSpent: {
     description: '花费的时间'
   },
+  village_bestPrestige0: {
+    description: '最佳声望 (工人)'
+  },
+  village_bestPrestige1: {
+    description: '最佳声望 (工匠公会)'
+  },
+  village_prestigeCount: {
+    description: '声望'
+  },
 
   // Horde stats
   horde_maxZone: {
     achievement: '探险家',
     description: '最大区域'
+  },
+  horde_maxDifficulty: {
+    description: '最大难度'
   },
   horde_maxZoneSpeedrun: {
     achievement: '迅捷出击',
@@ -156,6 +177,10 @@ export default {
     achievement: '灵魂的牧者',
     description: '获得的腐化灵魂'
   },
+  horde_maxCorruptionKill: {
+    achievement: '挑战邪恶',
+    description: '击败最高腐化敌人'
+  },
   horde_maxMastery: {
     achievement: '一招',
     description: '最高精通等级'
@@ -173,6 +198,15 @@ export default {
   },
   horde_timeSpent: {
     description: '花费的时间'
+  },
+  horde_bestPrestige0: {
+    description: '最佳声望 (装备)'
+  },
+  horde_bestPrestige1: {
+    description: '最佳声望 (职业)'
+  },
+  horde_prestigeCount: {
+    description: '声望'
   },
 
   // Farm stats
@@ -192,9 +226,9 @@ export default {
     achievement: '素食主义者',
     description: '获得的蔬菜'
   },
-  farm_fruit: {
-    achievement: '果食主义者',
-    description: '获得的水果'
+  farm_berry: {
+    achievement: '浆果不错',
+    description: '获得的浆果'
   },
   farm_grain: {
     achievement: '面包师',
@@ -216,6 +250,9 @@ export default {
   },
   farm_butterflyMax: {
     description: '最奥蝴蝶数量'
+  },
+  farm_totalMystery: {
+    description: '神秘'
   },
 
   // Gallery stats
@@ -256,8 +293,27 @@ export default {
     achievement: '笨蛋笨蛋笨蛋',
     description: '最高红鼓数量'
   },
+  gallery_shapeComboTotal: {
+    achievement: '收藏家',
+    description: '收集的形状总数'
+  },
+  gallery_shapeComboHighest: {
+    achievement: '天才',
+    description: '最高形状组合'
+  },
+  gallery_canvasLevelTotal: {
+    achievement: '远见卓识',
+    description: '画布总等级'
+  },
+  gallery_hourglassHighest: {
+    achievement: '借来的时间',
+    description: '沙漏时间达到 1 天'
+  },
   gallery_timeSpent: {
     description: '花费的时间'
+  },
+  gallery_prestigeCount: {
+    description: '声望'
   },
 
   // Meta stats
